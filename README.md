@@ -4,9 +4,9 @@
 
 * Found that for Mandarin, female names have a higher proportion of open syllables and high vowel nuclei, while male names have a higher proportion of back vowel nuclei, round vowel nuclei, obstruent onsets, and non-coronal onsets, conforming to cross-linguistic patterns.
 
-* Predicted the gender associated with a Mandarin Chinese given name using state-of-the-art machine learning models for classification, using character frequencies or character embeddings, and/or phonotactic features that correlate with gender as features.
+* Predicted gender from Mandarin names using various Scikit-Learn classifiers, using character frequencies or FastText word embeddings and/or phonotactic features as features.
 
-* Evaluated the performance of the ML models.
+* Evaluated the models' performance using F1 and AUC scores, ROC curve and the confusion matrix.
 
 * Achieved ~80% accuracy using just character frequencies or character embeddings as the feature, and ~60% accuracy using just the phonotactic features.
 
